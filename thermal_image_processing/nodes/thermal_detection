@@ -65,7 +65,7 @@ def display_temperature(img, val_k, loc, color):
 
 def main():
   # Ros Integration
-  rospy.init_node('lepton_radiometry', anonymous=True)
+  rospy.init_node('thermal_detection', anonymous=True)
   image_pub = rospy.Publisher('thermo_image',Image, queue_size=10)
   temp_pub = rospy.Publisher('highest_T_detected',Float32,queue_size=10)
   xcoord_pub = rospy.Publisher('object_x',Float32,queue_size=10)
@@ -131,7 +131,7 @@ def main():
           ycoord_pub.publish(maxLoc[1])
           
           display_temperature(img, maxVal, maxLoc, (0, 0, 255))
-          # cv2.imshow('Lepton Radiometry', img)
+   
 
           # Publish Gray Scale Img for visualization
           try:
