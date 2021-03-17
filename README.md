@@ -1,6 +1,8 @@
 # Firefigther Robot Arm
 HDT Adroit 6DOF A24 Pincer Manipulation of a fire extingushier using thermal camera
 
+written by Dong Ho Kang (DK)
+
 You can find more background of this probject from:
 (portfolio link)
 
