@@ -36,7 +36,7 @@ This package creates enviroment for Moveit and controls the arm and pincer movem
 
 
 ## OPERATION
-Note that you will need 'hdt_6dof_a24_pincer' control packages to use for the operation.
+Note that you will need `hdt_6dof_a24_pincer` control packages to use for the operation.
 
 1. First, you will need to start the robot.
     Run `roslaunch control hdt_arm_bringup.launch`
