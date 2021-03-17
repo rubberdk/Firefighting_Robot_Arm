@@ -50,11 +50,11 @@ Note that you will need 'hdt_6dof_a24_pincer' control packages to use for the op
         This will create enviroment in Rviz for the Moveit.
         The robot will move to its `grab_ready` position
 
-        `grab_ready` position looks like this:
+    `grab_ready` position looks like this:
 
-        ![grab_ready(https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/grab_ready.jpg?raw=true)
+    ![grab_ready](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/grab_ready.jpg?raw=true)
 
-        And this is how I attached the thermal camera on robot. If you change the orientation of the camera, you will have to adjust inital joint angles for `search` function in `arm_control` node accordingly.
+    And this is how I attached the thermal camera on robot. If you change the orientation of the camera, you will have to adjust inital joint angles for `search` function in `arm_control` node accordingly.
 
 
 3. Now, you can operate the robot using `rosservice`
