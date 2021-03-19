@@ -14,7 +14,10 @@ message_runtime
 moveit_msgs
 nav_msgs
 sensor_msgs
-std_msgs)
+std_msgs
+thermal_image_processing
+
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
