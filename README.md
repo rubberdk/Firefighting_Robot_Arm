@@ -7,8 +7,8 @@ written by Dong Ho Kang (DK)
 
 [![](http://img.youtube.com/vi/1XVxniZMIpI/0.jpg)](http://www.youtube.com/watch?v=1XVxniZMIpI "")
 
-You can find more information about this probject at:
-(portfolio link)
+You can find more information about this probject on my portfolio:
+[Portfolio](https://rubberdk.github.io/fire_robot/)
 
 ## INTRODUCTION
 This project contatins a firefighting mechanism using HDT Adroit 6 DOF A24 Pincer robot arm and FLIR Lepton 2.5 thermal camera for this project. The goal of this project is to detect a heat source (fire), grab the fire extinguisher, and operate it.
@@ -24,6 +24,9 @@ Manipulating a robot arm to detect a fire and use a fire extinguisher can be ben
 - Fixed-hose fire extinguisher
 
     ![fire_extinguisher](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/fe.jpg?raw=true)
+
+
+
 
 
 
